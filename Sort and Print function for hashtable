@@ -1,0 +1,7 @@
+// Print an alphanumeric list of all courses in the Computer Science department
+void printCourseList() {
+    cout << "Course List:" << endl;
+    for (const auto& entry : courseTable) {
+        cout << entry.second.courseNumber << ", " << entry.second.title << endl;
+    }
+}
