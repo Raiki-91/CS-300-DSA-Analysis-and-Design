@@ -1,0 +1,21 @@
+Vector:
+Reading the File and Creating Course Objects:
+Cost per line: 1 (assuming basic operations)
+Number of lines executed for each course: O(n) (where n is the number of courses)
+Looping through prerequisites: O(m) (where m is the number of prerequisites)
+Overall complexity: O(n * m)
+
+Hash Table:
+Reading the File and Creating Course Objects:
+Cost per line: 1
+Number of lines executed for each course: O(n)
+Looping through prerequisites: O(m)
+Overall complexity: O(n * m)
+
+Data Tree:
+Reading the File and Creating Course Objects:
+Cost per line: 1
+Number of lines executed for each course: O(n)
+Inserting into the tree: O(m) (where m is the number of prerequisites)
+Searching in the tree: O(h) (where h is the height of the tree)
+Overall complexity: O(n * (m + h))
